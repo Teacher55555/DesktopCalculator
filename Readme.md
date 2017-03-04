@@ -2,11 +2,17 @@ Hello! This is my first program used Swing GUI widget toolkit for Java and first
 It has two modes. First - classic mode, works like Apple's MacOS native calculator and second - engineering mode.
 Here i used Reverse Polish notation (RPN) algorithm.
 
-It is wellcome to say me what is a good on the my way to learning java and what is not and needs to remake.
+You are welcome to comment on the code and let me know what needs to be improved.
 
-!!!You need to start Class Main!!!!
+The project is managed by [Maven](https://maven.apache.org/). To compile:
 
-Версия 1.0
+`mvn compile`
+
+to run:
+
+`mvn exec:java -Dexec.mainClass="com.igridin.desktop_calculator.DesktopCalculator"`
+
+Версия 1.0-SNAPSHOT
 Реализованные задачи:
 
 Стандартный калькулятор:
@@ -18,7 +24,7 @@ It is wellcome to say me what is a good on the my way to learning java and what 
 - обработка ошибок (деления на ноль, лимита вычислений и т.д.)
 - возможность ввода с клавиатуры
 - стирание одного символа (BackSpace)
-- работа с copy - past
+- работа с copy - paste
 
 Инженерный калькулятор
 - реализован алгоритм обратной польской записи
