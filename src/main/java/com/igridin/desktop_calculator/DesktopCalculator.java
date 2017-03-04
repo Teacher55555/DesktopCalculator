@@ -1,4 +1,6 @@
+package com.igridin.desktop_calculator;
 
+import com.igridin.desktop_calculator.ClassicCalcOperations;
 
 /**
  * Created by Igor Gridin on 15.12.16.
@@ -18,10 +20,8 @@ TextAreaWrapper is a wrapper for JtextArea for Engineering calculator result fie
 Main class is a starter for classic calc form
 
 */
-
-
-public class Main {
-
+public class DesktopCalculator
+{
     public static void main(String[] args) {
         new ClassicCalcOperations();
     }

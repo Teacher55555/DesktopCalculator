@@ -1,3 +1,5 @@
+package com.igridin.desktop_calculator;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.datatransfer.DataFlavor;
@@ -27,27 +29,27 @@ abstract class FrameForm extends JFrame {
     static boolean isClassicForm = true;
 
     //Engineering buttons
-    JButton buttonBktOpen = new javax.swing.JButton();
-    JButton buttonBktClose = new javax.swing.JButton();
-    JButton buttonRoot = new javax.swing.JButton();
-    JButton buttonDelete = new javax.swing.JButton();
-    JButton buttonPow = new javax.swing.JButton();
-    JButton buttonExp = new javax.swing.JButton();
-    JButton buttonOneDivX = new javax.swing.JButton();
-    JPanel separatorPanel = new javax.swing.JPanel();
-    JButton buttonMr = new javax.swing.JButton();
-    JButton buttonMc = new javax.swing.JButton();
-    JButton buttonMPlus = new javax.swing.JButton();
-    JButton buttonMMinus = new javax.swing.JButton();
-    JButton buttonPi = new javax.swing.JButton();
-    JButton buttonLog = new javax.swing.JButton();
-    JButton buttonLn = new javax.swing.JButton();
-    JButton buttonSin = new javax.swing.JButton();
-    JButton buttonCos = new javax.swing.JButton();
-    JButton buttonTg = new javax.swing.JButton();
-    JButton buttonAsin = new javax.swing.JButton();
-    JButton buttonAcos = new javax.swing.JButton();
-    JButton buttonAtan = new javax.swing.JButton();
+    JButton buttonBktOpen = new JButton();
+    JButton buttonBktClose = new JButton();
+    JButton buttonRoot = new JButton();
+    JButton buttonDelete = new JButton();
+    JButton buttonPow = new JButton();
+    JButton buttonExp = new JButton();
+    JButton buttonOneDivX = new JButton();
+    JPanel separatorPanel = new JPanel();
+    JButton buttonMr = new JButton();
+    JButton buttonMc = new JButton();
+    JButton buttonMPlus = new JButton();
+    JButton buttonMMinus = new JButton();
+    JButton buttonPi = new JButton();
+    JButton buttonLog = new JButton();
+    JButton buttonLn = new JButton();
+    JButton buttonSin = new JButton();
+    JButton buttonCos = new JButton();
+    JButton buttonTg = new JButton();
+    JButton buttonAsin = new JButton();
+    JButton buttonAcos = new JButton();
+    JButton buttonAtan = new JButton();
 
     //Base buttons
     JButton button0 = new JButton();
@@ -142,7 +144,7 @@ abstract class FrameForm extends JFrame {
         buttonNumberPush(6);
     }
 
-    void button0ActionPerformed(java.awt.event.ActionEvent evt) {
+    void button0ActionPerformed(ActionEvent evt) {
         buttonNumberPush(0);
     }
 
@@ -154,83 +156,83 @@ abstract class FrameForm extends JFrame {
         buttonMathPush('÷');
     }
 
-    void buttonCosActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonCosActionPerformed(ActionEvent evt) {
         buttonIngPush("cos(");
     }
 
-    void buttonTgActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonTgActionPerformed(ActionEvent evt) {
         buttonIngPush("tg(");
     }
 
-    void buttonBktCloseActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonBktCloseActionPerformed(ActionEvent evt) {
         buttonBktClosePush();
     }
 
-    void buttonPowActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonPowActionPerformed(ActionEvent evt) {
         buttonPowPush();
     }
 
-    void buttonBktOpenActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonBktOpenActionPerformed(ActionEvent evt) {
         buttonIngPush("(");
     }
 
-    void buttonRootActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonRootActionPerformed(ActionEvent evt) {
         buttonIngPush("√(");
     }
 
-    void buttonDeleteActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonDeleteActionPerformed(ActionEvent evt) {
         buttonDigitRemovePush();
     }
 
-    void buttonExpActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonExpActionPerformed(ActionEvent evt) {
         buttonIngPush("exp(");
     }
 
-    void buttonOneDivXActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonOneDivXActionPerformed(ActionEvent evt) {
         buttonOneDivXPush();
     }
 
-    void buttonMrActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonMrActionPerformed(ActionEvent evt) {
         memoryPush("mR");
     }
 
-    void buttonPiActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonPiActionPerformed(ActionEvent evt) {
         buttonIngPush("п");
     }
 
-    void buttonLogActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonLogActionPerformed(ActionEvent evt) {
         buttonIngPush("lg(");
     }
 
-    void buttonLnActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonLnActionPerformed(ActionEvent evt) {
         buttonIngPush("ln(");
     }
 
-    void buttonMcActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonMcActionPerformed(ActionEvent evt) {
         memoryPush("mC");
     }
 
-    void buttonSinActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonSinActionPerformed(ActionEvent evt) {
         buttonIngPush("sin(");
     }
 
-    void buttonMPlusActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonMPlusActionPerformed(ActionEvent evt) {
         memoryPush("mPlus");
     }
 
-    void buttonAsinActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonAsinActionPerformed(ActionEvent evt) {
         buttonIngPush("asin(");
     }
 
-    void buttonAcosActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonAcosActionPerformed(ActionEvent evt) {
         buttonIngPush("acos(");
     }
 
-    void buttonAtanActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonAtanActionPerformed(ActionEvent evt) {
         buttonIngPush("atg(");
     }
 
-    void buttonMMinusActionPerformed(java.awt.event.ActionEvent evt) {
+    void buttonMMinusActionPerformed(ActionEvent evt) {
         memoryPush("mMinus");
     }
 

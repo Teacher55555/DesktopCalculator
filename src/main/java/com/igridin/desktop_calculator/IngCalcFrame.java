@@ -1,3 +1,4 @@
+package com.igridin.desktop_calculator;
 
 import java.awt.*;
 
@@ -34,11 +35,11 @@ abstract class IngCalcFrame extends FrameForm {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        gradientPanel.setBackground(new java.awt.Color(33, 59, 104));
+        gradientPanel.setBackground(new Color(33, 59, 104));
 
         textArea.setColumns(20);
-        textArea.setFont(new java.awt.Font("Arial", 0, 20)); // NOI18N
-        textArea.setForeground(new java.awt.Color(255, 255, 255));
+        textArea.setFont(new Font("Arial", 0, 20)); // NOI18N
+        textArea.setForeground(new Color(255, 255, 255));
         textArea.setLineWrap(true);
         textArea.setRows(5);
         textArea.setText("0");
@@ -54,12 +55,12 @@ abstract class IngCalcFrame extends FrameForm {
 
         bktField.setEditable(false);
         bktField.setBackground(null);
-        bktField.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        bktField.setForeground(new java.awt.Color(255, 255, 255));
+        bktField.setFont(new Font("Arial", 0, 12)); // NOI18N
+        bktField.setForeground(new Color(255, 255, 255));
         bktField.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         bktField.setText("");
         bktField.setBorder(null);
-        bktField.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        bktField.setDisabledTextColor(new Color(255, 255, 255));
         bktField.setDragEnabled(false);
         bktField.setEnabled(false);
         bktField.setHighlighter(null);
@@ -88,12 +89,12 @@ abstract class IngCalcFrame extends FrameForm {
                                 .addContainerGap())
         );
 
-        digitsPanel.setBackground(new java.awt.Color(127, 127, 127));
+        digitsPanel.setBackground(new Color(127, 127, 127));
 
-        button0.setBackground(new java.awt.Color(225, 225, 225));
-        button0.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        button0.setBackground(new Color(225, 225, 225));
+        button0.setFont(new Font("Arial", 0, 24)); // NOI18N
         button0.setText("0");
-        button0.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        button0.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         button0.setBorderPainted(false);
         button0.setFocusPainted(false);
         button0.setOpaque(true);
@@ -103,10 +104,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonzap.setBackground(new java.awt.Color(225, 225, 225));
-        buttonzap.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        buttonzap.setBackground(new Color(225, 225, 225));
+        buttonzap.setFont(new Font("Arial", 0, 24)); // NOI18N
         buttonzap.setText(",");
-        buttonzap.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        buttonzap.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         buttonzap.setBorderPainted(false);
         buttonzap.setFocusPainted(false);
         buttonzap.setOpaque(true);
@@ -116,10 +117,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonC.setBackground(new java.awt.Color(225, 225, 225));
-        buttonC.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        buttonC.setBackground(new Color(225, 225, 225));
+        buttonC.setFont(new Font("Arial", 0, 24)); // NOI18N
         buttonC.setText("C");
-        buttonC.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        buttonC.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         buttonC.setBorderPainted(false);
         buttonC.setFocusPainted(false);
         buttonC.setOpaque(true);
@@ -129,11 +130,11 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonEquals.setBackground(new java.awt.Color(255, 153, 0));
-        buttonEquals.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
-        buttonEquals.setForeground(new java.awt.Color(255, 255, 255));
+        buttonEquals.setBackground(new Color(255, 153, 0));
+        buttonEquals.setFont(new Font("Arial", 1, 24)); // NOI18N
+        buttonEquals.setForeground(new Color(255, 255, 255));
         buttonEquals.setText("=");
-        buttonEquals.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        buttonEquals.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         buttonEquals.setBorderPainted(false);
         buttonEquals.setFocusPainted(false);
         buttonEquals.setOpaque(true);
@@ -143,10 +144,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        button1.setBackground(new java.awt.Color(225, 225, 225));
-        button1.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        button1.setBackground(new Color(225, 225, 225));
+        button1.setFont(new Font("Arial", 0, 24)); // NOI18N
         button1.setText("1");
-        button1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        button1.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         button1.setBorderPainted(false);
         button1.setFocusPainted(false);
         button1.setOpaque(true);
@@ -156,10 +157,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        button2.setBackground(new java.awt.Color(225, 225, 225));
-        button2.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        button2.setBackground(new Color(225, 225, 225));
+        button2.setFont(new Font("Arial", 0, 24)); // NOI18N
         button2.setText("2");
-        button2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        button2.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         button2.setBorderPainted(false);
         button2.setFocusPainted(false);
         button2.setOpaque(true);
@@ -169,10 +170,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        button3.setBackground(new java.awt.Color(225, 225, 225));
-        button3.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        button3.setBackground(new Color(225, 225, 225));
+        button3.setFont(new Font("Arial", 0, 24)); // NOI18N
         button3.setText("3");
-        button3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        button3.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         button3.setBorderPainted(false);
         button3.setFocusPainted(false);
         button3.setOpaque(true);
@@ -182,11 +183,11 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonAdd.setBackground(new java.awt.Color(255, 153, 0));
-        buttonAdd.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
-        buttonAdd.setForeground(new java.awt.Color(255, 255, 255));
+        buttonAdd.setBackground(new Color(255, 153, 0));
+        buttonAdd.setFont(new Font("Arial", 1, 24)); // NOI18N
+        buttonAdd.setForeground(new Color(255, 255, 255));
         buttonAdd.setText("+");
-        buttonAdd.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        buttonAdd.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         buttonAdd.setBorderPainted(false);
         buttonAdd.setFocusPainted(false);
         buttonAdd.setOpaque(true);
@@ -196,10 +197,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        button4.setBackground(new java.awt.Color(225, 225, 225));
-        button4.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        button4.setBackground(new Color(225, 225, 225));
+        button4.setFont(new Font("Arial", 0, 24)); // NOI18N
         button4.setText("4");
-        button4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        button4.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         button4.setBorderPainted(false);
         button4.setOpaque(true);
         button4.addActionListener(new java.awt.event.ActionListener() {
@@ -208,10 +209,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        button5.setBackground(new java.awt.Color(225, 225, 225));
-        button5.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        button5.setBackground(new Color(225, 225, 225));
+        button5.setFont(new Font("Arial", 0, 24)); // NOI18N
         button5.setText("5");
-        button5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        button5.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         button5.setBorderPainted(false);
         button5.setOpaque(true);
         button5.addActionListener(new java.awt.event.ActionListener() {
@@ -220,10 +221,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        button6.setBackground(new java.awt.Color(225, 225, 225));
-        button6.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        button6.setBackground(new Color(225, 225, 225));
+        button6.setFont(new Font("Times New Roman", 0, 24)); // NOI18N
         button6.setText("6");
-        button6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        button6.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         button6.setBorderPainted(false);
         button6.setOpaque(true);
         button6.addActionListener(new java.awt.event.ActionListener() {
@@ -232,11 +233,11 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonSub.setBackground(new java.awt.Color(255, 153, 0));
-        buttonSub.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
-        buttonSub.setForeground(new java.awt.Color(255, 255, 255));
+        buttonSub.setBackground(new Color(255, 153, 0));
+        buttonSub.setFont(new Font("Arial", 1, 24)); // NOI18N
+        buttonSub.setForeground(new Color(255, 255, 255));
         buttonSub.setText("–");
-        buttonSub.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        buttonSub.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         buttonSub.setBorderPainted(false);
         buttonSub.setFocusPainted(false);
         buttonSub.setOpaque(true);
@@ -246,10 +247,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        button7.setBackground(new java.awt.Color(225, 225, 225));
-        button7.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        button7.setBackground(new Color(225, 225, 225));
+        button7.setFont(new Font("Arial", 0, 24)); // NOI18N
         button7.setText("7");
-        button7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        button7.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         button7.setBorderPainted(false);
         button7.setFocusPainted(false);
         button7.setOpaque(true);
@@ -259,10 +260,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        button8.setBackground(new java.awt.Color(225, 225, 225));
-        button8.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        button8.setBackground(new Color(225, 225, 225));
+        button8.setFont(new Font("Arial", 0, 24)); // NOI18N
         button8.setText("8");
-        button8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        button8.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         button8.setBorderPainted(false);
         button8.setFocusPainted(false);
         button8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -273,10 +274,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        button9.setBackground(new java.awt.Color(225, 225, 225));
-        button9.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        button9.setBackground(new Color(225, 225, 225));
+        button9.setFont(new Font("Arial", 0, 24)); // NOI18N
         button9.setText("9");
-        button9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        button9.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(153, 153, 153)));
         button9.setBorderPainted(false);
         button9.setFocusPainted(false);
         button9.setOpaque(true);
@@ -286,11 +287,11 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonMult.setBackground(new java.awt.Color(255, 153, 0));
-        buttonMult.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
-        buttonMult.setForeground(new java.awt.Color(255, 255, 255));
+        buttonMult.setBackground(new Color(255, 153, 0));
+        buttonMult.setFont(new Font("Arial", 1, 24)); // NOI18N
+        buttonMult.setForeground(new Color(255, 255, 255));
         buttonMult.setText("×");
-        buttonMult.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        buttonMult.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(153, 153, 153)));
         buttonMult.setBorderPainted(false);
         buttonMult.setFocusPainted(false);
         buttonMult.setOpaque(true);
@@ -300,10 +301,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonSw.setBackground(new java.awt.Color(225, 225, 225));
-        buttonSw.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        buttonSw.setBackground(new Color(225, 225, 225));
+        buttonSw.setFont(new Font("Arial", 0, 14)); // NOI18N
         buttonSw.setText("Стандартный");
-        buttonSw.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        buttonSw.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         buttonSw.setBorderPainted(false);
         buttonSw.setFocusPainted(false);
         buttonSw.setOpaque(true);
@@ -313,10 +314,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonInterest.setBackground(new java.awt.Color(225, 225, 225));
-        buttonInterest.setFont(new java.awt.Font("Arial", 0, 20)); // NOI18N
+        buttonInterest.setBackground(new Color(225, 225, 225));
+        buttonInterest.setFont(new Font("Arial", 0, 20)); // NOI18N
         buttonInterest.setText("%");
-        buttonInterest.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        buttonInterest.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(204, 204, 204)));
         buttonInterest.setBorderPainted(false);
         buttonInterest.setFocusPainted(false);
         buttonInterest.setOpaque(true);
@@ -326,11 +327,11 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonDiv.setBackground(new java.awt.Color(255, 153, 0));
-        buttonDiv.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
-        buttonDiv.setForeground(new java.awt.Color(255, 255, 255));
+        buttonDiv.setBackground(new Color(255, 153, 0));
+        buttonDiv.setFont(new Font("Arial", 1, 24)); // NOI18N
+        buttonDiv.setForeground(new Color(255, 255, 255));
         buttonDiv.setText("÷");
-        buttonDiv.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonDiv.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonDiv.setBorderPainted(false);
         buttonDiv.setFocusPainted(false);
         buttonDiv.setOpaque(true);
@@ -340,10 +341,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonBktOpen.setBackground(new java.awt.Color(225, 225, 225));
-        buttonBktOpen.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        buttonBktOpen.setBackground(new Color(225, 225, 225));
+        buttonBktOpen.setFont(new Font("Arial", 0, 24)); // NOI18N
         buttonBktOpen.setText("(");
-        buttonBktOpen.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonBktOpen.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonBktOpen.setBorderPainted(false);
         buttonBktOpen.setFocusPainted(false);
         buttonBktOpen.setOpaque(true);
@@ -353,11 +354,11 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonBktClose.setBackground(new java.awt.Color(225, 225, 225));
-        buttonBktClose.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        buttonBktClose.setBackground(new Color(225, 225, 225));
+        buttonBktClose.setFont(new Font("Arial", 0, 24)); // NOI18N
         buttonBktClose.setText(")");
         buttonBktClose.setToolTipText("");
-        buttonBktClose.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonBktClose.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonBktClose.setBorderPainted(false);
         buttonBktClose.setFocusPainted(false);
         buttonBktClose.setOpaque(true);
@@ -367,10 +368,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonRoot.setBackground(new java.awt.Color(204, 204, 204));
-        buttonRoot.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        buttonRoot.setBackground(new Color(204, 204, 204));
+        buttonRoot.setFont(new Font("Arial", 0, 24)); // NOI18N
         buttonRoot.setText("√");
-        buttonRoot.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonRoot.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonRoot.setBorderPainted(false);
         buttonRoot.setFocusPainted(false);
         buttonRoot.setOpaque(true);
@@ -380,11 +381,11 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonDelete.setBackground(new java.awt.Color(204, 0, 0));
-        buttonDelete.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        buttonDelete.setForeground(new java.awt.Color(255, 255, 255));
+        buttonDelete.setBackground(new Color(204, 0, 0));
+        buttonDelete.setFont(new Font("Arial", 0, 24)); // NOI18N
+        buttonDelete.setForeground(new Color(255, 255, 255));
         buttonDelete.setText("Del");
-        buttonDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonDelete.setBorderPainted(false);
         buttonDelete.setFocusPainted(false);
         buttonDelete.setOpaque(true);
@@ -394,10 +395,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonPow.setBackground(new java.awt.Color(204, 204, 204));
-        buttonPow.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        buttonPow.setBackground(new Color(204, 204, 204));
+        buttonPow.setFont(new Font("Arial", 0, 24)); // NOI18N
         buttonPow.setText("x^");
-        buttonPow.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonPow.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonPow.setBorderPainted(false);
         buttonPow.setOpaque(true);
         buttonPow.addActionListener(new java.awt.event.ActionListener() {
@@ -406,10 +407,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonExp.setBackground(new java.awt.Color(204, 204, 204));
-        buttonExp.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        buttonExp.setBackground(new Color(204, 204, 204));
+        buttonExp.setFont(new Font("Arial", 0, 24)); // NOI18N
         buttonExp.setText("e^");
-        buttonExp.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonExp.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonExp.setBorderPainted(false);
         buttonExp.setFocusPainted(false);
         buttonExp.setOpaque(true);
@@ -419,10 +420,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonOneDivX.setBackground(new java.awt.Color(204, 204, 204));
-        buttonOneDivX.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        buttonOneDivX.setBackground(new Color(204, 204, 204));
+        buttonOneDivX.setFont(new Font("Arial", 0, 24)); // NOI18N
         buttonOneDivX.setText("1/x");
-        buttonOneDivX.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonOneDivX.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonOneDivX.setBorderPainted(false);
         buttonOneDivX.setOpaque(true);
         buttonOneDivX.addActionListener(new java.awt.event.ActionListener() {
@@ -431,7 +432,7 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        separatorPanel.setBackground(new java.awt.Color(255, 255, 255));
+        separatorPanel.setBackground(new Color(255, 255, 255));
 
         javax.swing.GroupLayout separatorPanelLayout = new javax.swing.GroupLayout(separatorPanel);
         separatorPanel.setLayout(separatorPanelLayout);
@@ -444,11 +445,11 @@ abstract class IngCalcFrame extends FrameForm {
                         .addGap(0, 239, Short.MAX_VALUE)
         );
 
-        buttonMr.setBackground(new java.awt.Color(0, 153, 153));
-        buttonMr.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
-        buttonMr.setForeground(new java.awt.Color(255, 255, 255));
+        buttonMr.setBackground(new Color(0, 153, 153));
+        buttonMr.setFont(new Font("Arial", 0, 22)); // NOI18N
+        buttonMr.setForeground(new Color(255, 255, 255));
         buttonMr.setText("MR");
-        buttonMr.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonMr.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonMr.setBorderPainted(false);
         buttonMr.setFocusPainted(false);
         buttonMr.setOpaque(true);
@@ -458,11 +459,11 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonMc.setBackground(new java.awt.Color(0, 153, 153));
-        buttonMc.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
-        buttonMc.setForeground(new java.awt.Color(255, 255, 255));
+        buttonMc.setBackground(new Color(0, 153, 153));
+        buttonMc.setFont(new Font("Arial", 0, 22)); // NOI18N
+        buttonMc.setForeground(new Color(255, 255, 255));
         buttonMc.setText("MC");
-        buttonMc.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonMc.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonMc.setBorderPainted(false);
         buttonMc.setOpaque(true);
         buttonMc.addActionListener(new java.awt.event.ActionListener() {
@@ -471,11 +472,11 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonMPlus.setBackground(new java.awt.Color(0, 204, 204));
-        buttonMPlus.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
-        buttonMPlus.setForeground(new java.awt.Color(255, 255, 255));
+        buttonMPlus.setBackground(new Color(0, 204, 204));
+        buttonMPlus.setFont(new Font("Arial", 0, 22)); // NOI18N
+        buttonMPlus.setForeground(new Color(255, 255, 255));
         buttonMPlus.setText("M+");
-        buttonMPlus.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonMPlus.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonMPlus.setBorderPainted(false);
         buttonMPlus.setOpaque(true);
         buttonMPlus.addActionListener(new java.awt.event.ActionListener() {
@@ -484,11 +485,11 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonMMinus.setBackground(new java.awt.Color(0, 204, 204));
-        buttonMMinus.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
-        buttonMMinus.setForeground(new java.awt.Color(255, 255, 255));
+        buttonMMinus.setBackground(new Color(0, 204, 204));
+        buttonMMinus.setFont(new Font("Arial", 0, 22)); // NOI18N
+        buttonMMinus.setForeground(new Color(255, 255, 255));
         buttonMMinus.setText("M-");
-        buttonMMinus.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonMMinus.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonMMinus.setBorderPainted(false);
         buttonMMinus.setFocusPainted(false);
         buttonMMinus.setOpaque(true);
@@ -498,10 +499,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonPi.setBackground(new java.awt.Color(204, 204, 204));
-        buttonPi.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
+        buttonPi.setBackground(new Color(204, 204, 204));
+        buttonPi.setFont(new Font("Arial", 0, 22)); // NOI18N
         buttonPi.setText("п");
-        buttonPi.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonPi.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonPi.setBorderPainted(false);
         buttonPi.setFocusPainted(false);
         buttonPi.setOpaque(true);
@@ -511,10 +512,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonLog.setBackground(new java.awt.Color(204, 204, 204));
-        buttonLog.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
+        buttonLog.setBackground(new Color(204, 204, 204));
+        buttonLog.setFont(new Font("Arial", 0, 22)); // NOI18N
         buttonLog.setText("lg");
-        buttonLog.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonLog.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonLog.setBorderPainted(false);
         buttonLog.setFocusPainted(false);
         buttonLog.setOpaque(true);
@@ -524,10 +525,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonLn.setBackground(new java.awt.Color(204, 204, 204));
-        buttonLn.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
+        buttonLn.setBackground(new Color(204, 204, 204));
+        buttonLn.setFont(new Font("Arial", 0, 22)); // NOI18N
         buttonLn.setText("ln");
-        buttonLn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonLn.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonLn.setBorderPainted(false);
         buttonLn.setFocusPainted(false);
         buttonLn.setOpaque(true);
@@ -537,10 +538,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonSin.setBackground(new java.awt.Color(204, 204, 204));
-        buttonSin.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
+        buttonSin.setBackground(new Color(204, 204, 204));
+        buttonSin.setFont(new Font("Arial", 0, 22)); // NOI18N
         buttonSin.setText("sin");
-        buttonSin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonSin.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonSin.setBorderPainted(false);
         buttonSin.setFocusPainted(false);
         buttonSin.setOpaque(true);
@@ -550,10 +551,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonCos.setBackground(new java.awt.Color(204, 204, 204));
-        buttonCos.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
+        buttonCos.setBackground(new Color(204, 204, 204));
+        buttonCos.setFont(new Font("Arial", 0, 22)); // NOI18N
         buttonCos.setText("cos");
-        buttonCos.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonCos.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonCos.setBorderPainted(false);
         buttonCos.setFocusPainted(false);
         buttonCos.setOpaque(true);
@@ -563,10 +564,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonTg.setBackground(new java.awt.Color(204, 204, 204));
-        buttonTg.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
+        buttonTg.setBackground(new Color(204, 204, 204));
+        buttonTg.setFont(new Font("Arial", 0, 22)); // NOI18N
         buttonTg.setText("tg");
-        buttonTg.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonTg.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonTg.setBorderPainted(false);
         buttonTg.setFocusPainted(false);
         buttonTg.setOpaque(true);
@@ -576,10 +577,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonAsin.setBackground(new java.awt.Color(204, 204, 204));
-        buttonAsin.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
+        buttonAsin.setBackground(new Color(204, 204, 204));
+        buttonAsin.setFont(new Font("Arial", 0, 22)); // NOI18N
         buttonAsin.setText("asin");
-        buttonAsin.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonAsin.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonAsin.setBorderPainted(false);
         buttonAsin.setFocusPainted(false);
         buttonAsin.setOpaque(true);
@@ -589,10 +590,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonAcos.setBackground(new java.awt.Color(204, 204, 204));
-        buttonAcos.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
+        buttonAcos.setBackground(new Color(204, 204, 204));
+        buttonAcos.setFont(new Font("Arial", 0, 22)); // NOI18N
         buttonAcos.setText("acos");
-        buttonAcos.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonAcos.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonAcos.setBorderPainted(false);
         buttonAcos.setFocusPainted(false);
         buttonAcos.setOpaque(true);
@@ -602,10 +603,10 @@ abstract class IngCalcFrame extends FrameForm {
             }
         });
 
-        buttonAtan.setBackground(new java.awt.Color(204, 204, 204));
-        buttonAtan.setFont(new java.awt.Font("Arial", 0, 22)); // NOI18N
+        buttonAtan.setBackground(new Color(204, 204, 204));
+        buttonAtan.setFont(new Font("Arial", 0, 22)); // NOI18N
         buttonAtan.setText("atg");
-        buttonAtan.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        buttonAtan.setBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)));
         buttonAtan.setBorderPainted(false);
         buttonAtan.setFocusPainted(false);
         buttonAtan.setOpaque(true);
