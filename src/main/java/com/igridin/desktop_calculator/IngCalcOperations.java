@@ -1,3 +1,6 @@
+package com.igridin.desktop_calculator;
+
+import com.igridin.desktop_calculator.ClassicCalcOperations;
 
 import javax.swing.*;
 import java.util.ArrayList;

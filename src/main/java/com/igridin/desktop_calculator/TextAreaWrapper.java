@@ -1,3 +1,7 @@
+package com.igridin.desktop_calculator;
+
+import com.igridin.desktop_calculator.IngCalcOperations;
+
 import javax.swing.*;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
