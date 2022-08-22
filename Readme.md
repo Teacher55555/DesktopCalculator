@@ -1,4 +1,4 @@
-Hello! This is my first program used Swing GUI widget toolkit for Java and first program at all.
+Hello! Hier i used Swing GUI widget toolkit for Java.
 It has two modes. First - classic mode, works like Apple's MacOS native calculator and second - engineering mode.
 Here i used Reverse Polish notation (RPN) algorithm.
 
@@ -12,33 +12,33 @@ to run:
 
 `mvn exec:java -Dexec.mainClass="com.igridin.desktop_calculator.DesktopCalculator"`
 
-Версия 1.0-SNAPSHOT
-Реализованные задачи:
+Version 1.0-SNAPSHOT
+Implemented tasks:
 
-Стандартный калькулятор:
-- все функции стандартного десктопного Apple_кого калькулятора
-- ограничение на ввод цифр
-- группировка цифр на разряды
-- масштабирование размера шрифта в зависимости от количества цифр
-- форматирование результата, добавление экспоненты
-- обработка ошибок (деления на ноль, лимита вычислений и т.д.)
-- возможность ввода с клавиатуры
-- стирание одного символа (BackSpace)
-- работа с copy - paste
+Standard Calculator:
+- all functions of the standard desktop Apple calculator
+- restriction on entering numbers
+- grouping numbers into digits
+- scaling the font size depending on the number of digits
+- result formatting, adding exponent
+- error handling (divide by zero, calculation limit, etc.)
+- the ability to enter from the keyboard
+- erasing one character (BackSpace)
+- work with copy-paste
 
-Инженерный калькулятор
-- реализован алгоритм обратной польской записи
-- ограничение на ввод цифр
-- группировка цифр на разряды
-- запись(чтение) значения в память(из памяти), индикатор использования памяти
-- индикатор количества открытых скобок
-- защита от различных ошибок пользователя:
-    - количество запятых в значении
-    - неправильная запись выражения (Например: 13123+34-)
-    - автоматическая подстановка знака "*" и "(" при использовании тригонометрических функций в формате "*<функция>("
-    - несогласованное количество скобок
-    - запрет на запись в память уравнения, разрешена запись только значения
-    - и т.д.
-- возможность ввода с клавиатуры
-- стирание одного символа (BackSpace) или функции полностью со скобкой
-- обработка ошибок (деления на ноль, лимита вычислений и т.д.)
+Engineering Calculator
+- implemented reverse polish notation algorithm
+- restriction on entering numbers
+- grouping numbers into digits
+- write (read) value to memory (from memory), memory usage indicator
+- indicator of the number of open brackets
+- protection against various user errors:
+    - the number of commas in the value
+    - incorrect expression entry (For example: 13123+34-)
+    - automatic substitution of the sign "*" and "(" when using trigonometric functions in the format "*<function>("
+    - inconsistent number of brackets
+    - ban on writing to the memory of the equation, only the value is allowed to be written
+    - etc.
+- the ability to enter from the keyboard
+- erasing one character (BackSpace) or function completely with bracket
+- error handling (divide by zero, calculation limit, etc.)
